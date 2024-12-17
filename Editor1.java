@@ -18,7 +18,7 @@ public class Editor1 {
 		Color[][] imageIn = Runigram.read(fileName);	
 		Color[][] imageOut = null;	
 		// Applies the specified image processing function										
-		if (action.equals("fh")) {
+		if(action.equals("fh")) {
 			imageOut = Runigram.flippedHorizontally(imageIn);
 		} else if (action.equals("fv")) {
 			imageOut = Runigram.flippedVertically(imageIn);
