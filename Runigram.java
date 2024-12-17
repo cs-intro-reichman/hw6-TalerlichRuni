@@ -83,7 +83,7 @@ public class Runigram {
 		{
 		for (int j=0;j<image[0].length;j++)
 		{
-			n[i][j]=image[i][image[0].length-j-i];	
+			n[i][j] = image[i][image[0].length - j - 1];
 		}
 		}
 		return n;
